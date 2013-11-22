@@ -21,6 +21,12 @@
 		32A8547A183C82BB00943953 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A8545C183C82BB00943953 /* UIKit.framework */; };
 		32A85482183C82BB00943953 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32A85480183C82BB00943953 /* InfoPlist.strings */; };
 		32A85484183C82BB00943953 /* TrackMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A85483183C82BB00943953 /* TrackMenuTests.m */; };
+		32A85490183C835100943953 /* FJTrackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A8548F183C835100943953 /* FJTrackMenu.m */; };
+		32A85493183C88AE00943953 /* FJTrackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A85492183C88AE00943953 /* FJTrackMenuItem.m */; };
+		32ADB5B7183DE1AF0056BCDD /* track0.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ADB5B3183DE1AF0056BCDD /* track0.png */; };
+		32ADB5B8183DE1AF0056BCDD /* track1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ADB5B4183DE1AF0056BCDD /* track1.png */; };
+		32ADB5B9183DE1AF0056BCDD /* track2.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ADB5B5183DE1AF0056BCDD /* track2.png */; };
+		32ADB5BA183DE1AF0056BCDD /* track3.png in Resources */ = {isa = PBXBuildFile; fileRef = 32ADB5B6183DE1AF0056BCDD /* track3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		32A8547F183C82BB00943953 /* TrackMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMenuTests-Info.plist"; sourceTree = "<group>"; };
 		32A85481183C82BB00943953 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32A85483183C82BB00943953 /* TrackMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMenuTests.m; sourceTree = "<group>"; };
+		32A8548E183C835100943953 /* FJTrackMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTrackMenu.h; sourceTree = "<group>"; };
+		32A8548F183C835100943953 /* FJTrackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTrackMenu.m; sourceTree = "<group>"; };
+		32A85491183C88AE00943953 /* FJTrackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTrackMenuItem.h; sourceTree = "<group>"; };
+		32A85492183C88AE00943953 /* FJTrackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTrackMenuItem.m; sourceTree = "<group>"; };
+		32ADB5B3183DE1AF0056BCDD /* track0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track0.png; sourceTree = "<group>"; };
+		32ADB5B4183DE1AF0056BCDD /* track1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track1.png; sourceTree = "<group>"; };
+		32ADB5B5183DE1AF0056BCDD /* track2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track2.png; sourceTree = "<group>"; };
+		32ADB5B6183DE1AF0056BCDD /* track3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = track3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,11 @@
 		32A8545E183C82BB00943953 /* TrackMenu */ = {
 			isa = PBXGroup;
 			children = (
+				32ADB5B3183DE1AF0056BCDD /* track0.png */,
+				32ADB5B4183DE1AF0056BCDD /* track1.png */,
+				32ADB5B5183DE1AF0056BCDD /* track2.png */,
+				32ADB5B6183DE1AF0056BCDD /* track3.png */,
+				32A8548D183C830100943953 /* FJTrackMenu */,
 				32A85467183C82BB00943953 /* FJAppDelegate.h */,
 				32A85468183C82BB00943953 /* FJAppDelegate.m */,
 				32A8546A183C82BB00943953 /* Main.storyboard */,
@@ -150,6 +169,17 @@
 				32A85480183C82BB00943953 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A8548D183C830100943953 /* FJTrackMenu */ = {
+			isa = PBXGroup;
+			children = (
+				32A8548E183C835100943953 /* FJTrackMenu.h */,
+				32A8548F183C835100943953 /* FJTrackMenu.m */,
+				32A85491183C88AE00943953 /* FJTrackMenuItem.h */,
+				32A85492183C88AE00943953 /* FJTrackMenuItem.m */,
+			);
+			path = FJTrackMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +261,10 @@
 			files = (
 				32A85471183C82BB00943953 /* Images.xcassets in Resources */,
 				32A85463183C82BB00943953 /* InfoPlist.strings in Resources */,
+				32ADB5B8183DE1AF0056BCDD /* track1.png in Resources */,
+				32ADB5B7183DE1AF0056BCDD /* track0.png in Resources */,
+				32ADB5BA183DE1AF0056BCDD /* track3.png in Resources */,
+				32ADB5B9183DE1AF0056BCDD /* track2.png in Resources */,
 				32A8546C183C82BB00943953 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +286,8 @@
 			files = (
 				32A85469183C82BB00943953 /* FJAppDelegate.m in Sources */,
 				32A85465183C82BB00943953 /* main.m in Sources */,
+				32A85490183C835100943953 /* FJTrackMenu.m in Sources */,
+				32A85493183C88AE00943953 /* FJTrackMenuItem.m in Sources */,
 				32A8546F183C82BB00943953 /* FJViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,9 +415,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrackMenu/TrackMenu-Prefix.pch";
 				INFOPLIST_FILE = "TrackMenu/TrackMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +430,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TrackMenu/TrackMenu-Prefix.pch";
 				INFOPLIST_FILE = "TrackMenu/TrackMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +501,7 @@
 				32A85489183C82BB00943953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32A8548A183C82BB00943953 /* Build configuration list for PBXNativeTarget "TrackMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +510,7 @@
 				32A8548C183C82BB00943953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
